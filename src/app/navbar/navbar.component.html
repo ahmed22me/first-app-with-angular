@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navbar</title>
+</head>
+<body>
+  <nav class="bg-nav-color w-full top-0 fixed z-50">
+    <div class="container mx-auto">
+
+      <div class="flex flex-wrap navbar-expand-lg py-8">
+        <div><a  routerLink="home"><span class="text-4xl font-bold text-white">START FRAMEWORK</span></a></div>
+
+
+        <div class="ms-auto my-auto">
+          <ul class="flex ">
+            <li class="navLinks">
+              <a routerLinkActive="bg-body-color" routerLink="about" class="text-white font-bold rounded-md  p-2">ABOUT</a>
+            </li>
+            <li class="navLinks">
+              <a routerLinkActive="bg-body-color" routerLink="portfolio" class="text-white font-bold rounded-md p-2">PORTFOLIO</a>
+            </li>
+            <li class="navLinks">
+              <a routerLinkActive="bg-body-color" routerLink="contact" class="text-white font-bold rounded-md p-2">CONTACT</a>
+            </li>
+
+            <li class="navlinks">
+              <a routerLinkActive="bg-body-color" routerLink="gallary" class="text-white font-bold rounded-md p-2">GALLARY</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+
+    </div>
+  </nav>
+</body>
+</html>
